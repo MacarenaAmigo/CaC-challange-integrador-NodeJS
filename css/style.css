@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: #30343f;
+    display: flex;
+    height: 7rem;
+    width: auto;
+    padding: 1rem;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+#logo{
+    margin-right: 20rem;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+}
+.navbar li{
+    margin-right: 5rem;
+}
+.navbar li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: red;
+}
+#carrito{
+    font-size: 2rem;
+}
+#banner{
+    background-image: url(../img/funkos-banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem;
+    height: 25rem;
+    width: auto;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.banner h1{
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+.banner h2{
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+.banner a{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.banner a:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+main{
+    font-family: 'Raleway', sans-serif;
+    padding: 2rem;
+}
+#colecciones h2{
+    font-size: 50px;
+}
+#colecciones p{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.612);
+}
+#colecciones a{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#colecciones a:hover{
+    background-color: red;
+    border-color: red;
+}
+.colecciones{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+}
+.pokemon{
+    height: 80%;
+    width: 80%;
+}
+.bbYoda{
+    height: 80%;
+    width: 80%;
+}
+.harryPotter{
+    height: 80%;
+    width: 80%;
+}
+.naruto{
+    height: 80%;
+    width: 80%;
+}
+#lanzamientos{
+    padding: 2rem;
+}
+#lanzamientos h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.carrousel{
+    display: flex;
+}
+.carrousel h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.carrousel h4{
+    font-size: 20px;
+    text-align: left;
+}
+.carrousel button{
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: red;
+}
+.stormtrooper{
+    height: 80%;
+    width: 80%;
+}
+.pidgeotto{
+    height: 80%;
+    width: 80%;
+}
+.luna{
+    height: 80%;
+    width: 80%;
+}
+footer{
+    padding: 2rem;
+    background-color: #30343f;
+    font-family: 'Raleway', sans-serif;
+}
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.limap{
+    list-style: none;
+}
+.limap li a{
+    text-decoration: none;
+    color: white ;
+    font-size: 17px;
+}
+.limap li a:hover{
+    background-color: red;
+}
+footer h3{
+    font-size: 10px;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.logoFooter{
+    height: 90%;
+    width: 90%;
+}
+
+
+
